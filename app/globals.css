@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-oswald);
+    @apply text-white;
+  }
+}
+
+:root {
+  --primary-bg: #121212;
+  --secondary-bg: #F4F4F4;
+  --accent-color: #FF5E14;
+  --text-light: #FFFFFF;
+  --text-dark: #1C1C1C;
+}
