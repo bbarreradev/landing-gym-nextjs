@@ -1,7 +1,7 @@
 {
   "name": "next-iron-gym-landing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Landing page for Iron Gym",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",

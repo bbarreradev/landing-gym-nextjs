@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Problema() {
   return (
     <section className="w-full py-20 px-4 md:px-8 bg-[#F4F4F4] text-[#121212]" id="problema">
@@ -17,11 +19,14 @@ export default function Problema() {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center mt-8 md:mt-0">
-          {/* Placeholder visual o decorativo */}
-          <div className="w-full h-80 bg-gray-300 rounded-lg shadow-inner flex items-center justify-center relative overflow-hidden">
-             {/* Usaremos lazy loading en produccion con next/image, aca un fallback rapido visual */}
-             <div className="absolute inset-0 bg-gradient-to-tr from-[#121212]/20 to-transparent"></div>
-             <p className="text-gray-500 font-inter italic z-10">Imagen: Persona frustrada entrenando</p>
+          <div className="w-full h-80 md:h-96 relative rounded-lg overflow-hidden shadow-xl">
+            <Image
+              src="/images/problem-image.jpg"
+              alt="Persona frustrada con su entrenamiento"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
           </div>
         </div>
       </div>

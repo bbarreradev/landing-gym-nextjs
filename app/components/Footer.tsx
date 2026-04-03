@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         
         <div className="md:col-span-2">
-          <h3 className="text-2xl font-oswald font-bold text-white mb-4 uppercase">GYM BUENOS AIRES</h3>
+          <h3 className="text-2xl font-oswald font-bold text-white mb-4 uppercase">NEXTIRON GYM</h3>
           <p className="font-inter text-sm max-w-sm mb-4">
             Cambiando vidas a través del entrenamiento físico y la motivación constante. Tu mejor versión te espera.
           </p>
@@ -31,7 +31,7 @@ export default function Footer() {
       </div>
       
       <div className="max-w-6xl mx-auto pt-8 border-t border-gray-900 text-sm font-inter flex flex-col md:flex-row justify-between items-center text-gray-600">
-        <p>© {new Date().getFullYear()} Gimnasio en Buenos Aires. Todos los derechos reservados.</p>
+        <p>© {new Date().getFullYear()} NextIron Gym. Todos los derechos reservados.</p>
         <div className="flex space-x-4 mt-4 md:mt-0">
           <a href="#" className="hover:text-white transition-colors">Términos</a>
           <a href="#" className="hover:text-white transition-colors">Privacidad</a>

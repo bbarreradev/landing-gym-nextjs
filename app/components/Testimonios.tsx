@@ -3,7 +3,7 @@ export default function Testimonios() {
     {
       nombre: 'Marcos R.',
       foto: '/images/avatar-1.jpg',
-      comentario: 'Buscaba un gimnasio en Buenos Aires y los entrenadores aquí son excelentes. Logré en 3 meses lo que no pude en 2 años en otra cadena comercial.',
+      comentario: 'Buscaba un gimnasio en Buenos Aires y los entrenadores de NextIron son excelentes. Logré en 3 meses lo que no pude en 2 años en otra cadena comercial.',
     },
     {
       nombre: 'Julia M.',

@@ -6,15 +6,15 @@ const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' });
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'Gimnasio en Buenos Aires | Entrenamiento Personalizado y Clases Grupales',
-  description: 'Únete a nuestro gimnasio en Buenos Aires. Ofrecemos atención personalizada, clases grupales y planes mensuales con el equipamiento más moderno. ¡Empieza a entrenar hoy!',
-  keywords: 'Gimnasio en Buenos Aires, Gimnasio en CABA, Entrenamiento personalizado Buenos Aires, Clases grupales fitness',
+  title: 'NextIron Gym | Entrenamiento Personalizado y Clases Grupales en Buenos Aires',
+  description: 'Únete a NextIron Gym en Buenos Aires. Ofrecemos atención personalizada, clases grupales y planes mensuales con el equipamiento más moderno. ¡Empieza a entrenar hoy!',
+  keywords: 'NextIron Gym, Gimnasio en Buenos Aires, Gimnasio en CABA, Entrenamiento personalizado Buenos Aires, Clases grupales fitness',
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "HealthAndBeautyBusiness",
-  "name": "Gimnasio en Buenos Aires",
+  "name": "NextIron Gym",
   "image": "https://midominio.com/gym-image.jpg",
   "telephone": "+541100000000",
   "address": {

@@ -6,7 +6,7 @@ export default function Solucion() {
           Equipamiento Moderno y Atención Personalizada
         </h2>
         <p className="font-inter text-lg text-gray-300 max-w-2xl mx-auto">
-          Nos diferenciamos de los gimnasios tradicionales en CABA brindándote el acompañamiento constante que necesitas para alcanzar tus metas.
+          En NextIron Gym nos diferenciamos de los gimnasios tradicionales en CABA brindándote el acompañamiento constante que necesitas para alcanzar tus metas.
         </p>
       </div>
 
